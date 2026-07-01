@@ -1,49 +1,61 @@
+TO draw_tree
+    fd 90
+    rt 90
+    fd 30
+    rt 90
+    fd 90
+    rt 90
+    fd 30
+    rt 90
+    fd 90
+    lt 90
+    fd 68
+    rt 90
+    rt 45
+    fd 90
+    lt 180
+    rt 45
+    fd 50
+    rt 180
+    lt 45
+    fd 70
+    rt 180
+    rt 45
+    fd 30
+    rt 180
+    lt 45
+    fd 70
+    rt 90
+    fd 70
+    rt 180
+    lt 45
+    fd 30
+    rt 180
+    rt 45
+    fd 70
+    rt 180
+    lt 45
+    fd 50
+    rt 180
+    rt 45
+    fd 90
+    rt 180
+    lt 45
+    fd 67
+    fd 30
+    lt 90
+    fd 90
+    rt 180
+END
+
 cs
-fd 90
-rt 90
-fd 30
-rt 90
-fd 90
-rt 90
-fd 30
-rt 90
-fd 90
-lt 90
-fd 68
-rt 90
-rt 45
-fd 90
-lt 180
-rt 45
-fd 50
-rt 180
-lt 45
-fd 70
-rt 180
-rt 45
-fd 30
-rt 180
-lt 45
-fd 70
-rt 90
-fd 70
-rt 180
-lt 45
-fd 30
-rt 180
-rt 45
-fd 70
-rt 180
-lt 45
-fd 50
-rt 180
-rt 45
-fd 90
-rt 180
-lt 45
-fd 67
-fd 30
-lt 90
-fd 90
-rt 180
-home
+
+pu
+setxy 0 0
+pd
+draw_tree
+
+pu
+setxy 200 0
+pd
+draw_tree
