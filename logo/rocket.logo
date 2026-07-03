@@ -1,0 +1,26 @@
+cs
+pd
+fd 100
+rt 90
+fd 50
+rt 90
+fd 100
+rt 90
+fd 50
+pu
+fd 40
+lt 90
+fd 45
+lt 90
+fd 100
+lt 90
+arc 78 41
+fd 50
+rt 90
+fd 40
+rt 90
+arc 78 41
+rt 90
+fd 100
+lt 95
+lt 9
